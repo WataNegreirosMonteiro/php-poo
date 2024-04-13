@@ -1,7 +1,21 @@
 <?php 
 
 class Pen {
-    var $type;
-    var $color;
-    var $cap;
+    var string $type;
+    var string $color;
+    var bool $capIsOpen;
+
+    function draw() {
+        
+    }
+
+    function openCap() {
+
+    }
+
+    function closeCap() {
+
+    }
 }
+
+?>
